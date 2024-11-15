@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".calculator.TransferTimeCalculatorActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="16dp"
+        android:text="@string/calculation_data_transfer_time"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/input_data_size"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/enter_data"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            tools:ignore="Autofill" />
+
+        <Spinner
+            android:id="@+id/spinner_data_unit"
+            android:layout_width="30sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/data_units" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/input_transfer_speed"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:hint="@string/enter_transfer_speed"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            tools:ignore="Autofill" />
+
+        <Spinner
+            android:id="@+id/spinner_speed_unit"
+            android:layout_width="30sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/speed_units" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/calculate" />
+
+    <TextView
+        android:id="@+id/output_transfer_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Время передачи: "
+        android:textSize="16sp" />
+
+</LinearLayout>

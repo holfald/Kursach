@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">IT Engineer\'s Calculator</string>
+
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="enter">Вход</string>
+
+    <string name="name">Разработал: Нурлан Мураткалиев РИБО–04–22</string>
+    <string name="task">Тема курсовой: Калькулятор IT-инженера</string>
+
+    <string name="your_password">Ваш пароль:</string>
+    <string name="length_password">Длина пароля:</string>
+
+    <string name="confirm">Подтвердить</string>
+    <string name="calculate">Рассчитать</string>
+    <string name="generate_password">Сгенерировать пароль</string>
+    <string name="copy_password">Копировать пароль</string>
+
+
+    <string name="choose_type_calculate">Выберите тип вычисления</string>
+    <string name="calculation_subnet">Расчёт подсети</string>
+    <string name="calculation_data_transfer_time">Расчёт времени передачи данных</string>
+    <string name="generation_password">Генерация пароля</string>
+    <string name="calculation_poe">Расчёт мощности PoE</string>
+
+
+    <string name="enter_IP">Введите IP-адрес</string>
+    <string name="enter_mask_subnet">Введите маску подсети</string>
+    <string name="enter_data">Введите объем данных</string>
+    <string name="enter_transfer_speed">Введите скорость передачи</string>
+    <string name="enter_voltage">Напряжение (Вольт)</string>
+    <string name="enter_length_cable">Длина кабеля (метры)</string>
+    <string name="enter_count_device">Количество устройств</string>
+    <string name="enter_power">Мощность одного устройства (Вт)</string>
+    <string name="enter_count_power">Количество пар питания</string>
+
+    <string name="the_server_is_not_responding">Сервер не отвечает</string>
+    <string name="incorrect_data">Неверные данные</string>
+    <string name="fill_fields">Поля должны быть заполнены!</string>
+</resources>

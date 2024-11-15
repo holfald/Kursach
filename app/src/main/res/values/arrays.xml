@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="operation">
+        <item>Расчет подсети по IP-адресу и маске</item>
+        <item>Расчет времени передачи данных</item>
+        <item>Генерация надежных паролей</item>
+        <item>Расчет PoE</item>
+    </string-array>
+
+    <!-- Массив единиц измерения объёма данных -->
+    <string-array name="data_units">
+        <item>Бит</item>
+        <item>Байт</item>
+        <item>Кбайт</item>
+        <item>Мбайт</item>
+        <item>Гбайт</item>
+    </string-array>
+
+    <!-- Массив коэффициентов для перевода объёма данных в биты -->
+    <string-array name="data_conversion_factors">
+        <item>1</item>          <!-- Бит -->
+        <item>8</item>          <!-- Байт -->
+        <item>8192</item>       <!-- Кбайт -->
+        <item>8388608</item>    <!-- Мбайт -->
+        <item>8589934592</item> <!-- Гбайт -->
+    </string-array>
+
+    <!-- Массив единиц измерения скорости передачи -->
+    <string-array name="speed_units">
+        <item>бит/с</item>
+        <item>Кбит/с</item>
+        <item>Мбит/с</item>
+    </string-array>
+
+    <!-- Массив коэффициентов для перевода скорости в бит/с -->
+    <string-array name="speed_conversion_factors">
+        <item>1</item>       <!-- бит/с -->
+        <item>1000</item>    <!-- Кбит/с -->
+        <item>1000000</item> <!-- Мбит/с -->
+    </string-array>
+
+    <string-array name="cable_types">
+        <item>Cat5e</item>
+        <item>Cat6</item>
+        <item>Cat6a</item>
+    </string-array>
+</resources>
